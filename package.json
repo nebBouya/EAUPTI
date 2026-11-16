@@ -1,0 +1,31 @@
+{
+  "name": "eaupti-monorepo",
+  "version": "0.0.1",
+  "description": "Plateforme Intelligente d'Agriculture de Précision - Monorepo",
+  "directories": {
+    "doc": "docs"
+  },
+  "private": true,
+  "workspaces": [
+    "app/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "format": "biome format --write .",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "setup": "pre-commit install && pre-commit autoupdate"
+  },
+  "keywords": [
+    "agriculture",
+    "iot",
+    "react",
+    "monorepo"
+  ],
+  "author": "Équipe Eaupti",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@biomejs/biome": "2.6.8",
+    "typescript": "^7.0.2"
+  }
+}

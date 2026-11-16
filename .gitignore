@@ -1,0 +1,70 @@
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Node.js, React, & TypeScript
+node_modules/
+dist/
+dist-ssr/
+build/
+.npm/
+package-lock.json
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Tooling caches (Biome, etc)
+.eslintcache
+.stylelintcache
+
+# Python & Flask (Backend)
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Flask specifics
+instance/
+.webassets-cache
+
+# Ruff
+.ruff_cache/
+
+# Testing / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+coverage.xml
+
+# Python Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+wheels/
